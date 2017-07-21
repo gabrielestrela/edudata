@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+
+#intro p span{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#intro p{
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 40px!important;
+    margin-bottom: 75px!important;
+}
+
+.promo{
+    width: 100%;
+}
+
+.promo-content{
+    overflow: hidden;
+}
+
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.promo i{
+    margin: 5px 0;
+    font-size: 7rem;
+    display: block;
+    color: red;
+}
+
+.promo-caption{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 20px!important;
+}
+
+.promo-caption-desc{
+    font-size: 1.5rem;
+}
+
+.page-footer{
+    bottom: 0!important;
+    position: absolute;
+    width: 100%;
+}
