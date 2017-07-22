@@ -4,55 +4,75 @@ body {
 }
 
 body {
-     display: flex;
-     min-height: 100vh;
-     flex-direction: column;
- }
- main {
-     flex: 1 0 auto;
- }
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
-#intro p span{
+main {
+    flex: 1 0 auto;
+}
+
+#intro p span {
     font-size: 3rem;
     text-align: center;
 }
 
-#intro p{
+#intro p {
     font-size: 1.5rem;
     text-align: justify;
     font-weight: 300;
-    margin-top: 40px!important;
-    margin-bottom: 75px!important;
+    margin-top: 1.5em!important;
+    margin-bottom: 2em!important;
 }
 
-.promo{
+.promo {
     width: 100%;
 }
 
-.promo-content{
+.promo-content {
     overflow: hidden;
 }
 
-.center{
+.center {
     text-align: center;
     vertical-align: middle;
 }
 
-.promo i{
+.promo i {
     margin: 5px 0;
     font-size: 7rem;
     display: block;
     color: red;
 }
 
-.promo-caption{
+.promo-caption {
     font-size: 2rem;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 20px!important;
 }
 
-.promo-caption-desc{
+.promo-caption-desc {
     font-size: 1.5rem;
 }
 
+.modal h4{
+    background-color: #d73935;
+    color: white!important;
+    padding: 5px;
+}
+
+.modal ul li{
+    margin-bottom: .3em;
+}
+
+.divider{
+    margin-bottom: 2em;
+}
+
+#testeProgresso p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: normal;
+}
