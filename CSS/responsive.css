@@ -1,4 +1,8 @@
 @media (max-width: 600px){
+    html,
+    body{
+        overflow-x: hidden;
+    }
     .card{
         width: 95vw!important;
     }
