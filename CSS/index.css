@@ -13,7 +13,7 @@ main {
     flex: 1 0 auto;
 }
 
-#header h5{
+#header h5 {
     font-size: 1.2rem;
 }
 
@@ -28,6 +28,31 @@ main {
     font-weight: 300;
     margin-top: 1.5em!important;
     margin-bottom: 2em!important;
+}
+
+h4 {
+    background-color: #d73935;
+    color: white!important;
+    padding: 5px;
+}
+
+.unimed {
+    border: 1px solid #ececec;
+    padding: 5px;
+    background: -webkit-linear-gradient(rgba(209,247,223, 1), white 80%);
+    background: -moz-linear-gradient(rgba(209,247,223, 1), white 80%);
+    background: -ms-linear-gradient(rgba(209,247,223, 1), white 80%);
+    background: -o-linear-gradient(rgba(209,247,223, 1), white 80%);
+    background: linear-gradient(rgba(209,247,223, 1), white 80%);
+}
+
+.unimed h6, 
+.unimed p{
+    color: #009859;
+}
+
+.unimed .divider{
+    background: #009859;
 }
 
 .promo {
@@ -61,21 +86,21 @@ main {
     font-size: 1.5rem;
 }
 
-.modal h4{
+.modal h4 {
     background-color: #d73935;
     color: white!important;
     padding: 5px;
 }
 
-.modal ul li{
+.modal ul li {
     margin-bottom: .3em;
 }
 
-.divider{
+.divider {
     margin-bottom: 2em;
 }
 
-#testeProgresso p{
+#testeProgresso p {
     text-align: justify;
     font-size: 1.2rem;
     line-height: normal;
