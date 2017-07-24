@@ -18,12 +18,12 @@ main {
 }
 
 #intro p span {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 #intro p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
     margin-top: 1.5em!important;
@@ -34,6 +34,7 @@ h4 {
     background-color: #d73935;
     color: white!important;
     padding: 5px;
+    border-radius: 2px;
 }
 
 .unimed {

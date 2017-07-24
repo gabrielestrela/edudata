@@ -4,10 +4,10 @@
         overflow-x: hidden;
     }
     #intro p span{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     #intro p{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     #mainContent .card {
         width: 95vw!important;
@@ -22,10 +22,10 @@
         font-size: .85rem;
     }
     #intro p span{
-        font-size: 2.25rem;
+        font-size: 1.5rem;
     }
     #intro p{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     #testeProgresso blockquote p{
         font-size: 1.1rem;
