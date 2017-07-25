@@ -40,23 +40,23 @@ h4 {
 .unimed {
     border: 1px solid #ececec;
     padding: 5px;
-    background: -webkit-linear-gradient(rgba(209,247,223, 1), white 25%, white);
-    background: -moz-linear-gradient(rgba(209,247,223, 1), white 25%, white);
-    background: -ms-linear-gradient(rgba(209,247,223, 1), white 25%, white);
-    background: -o-linear-gradient(rgba(209,247,223, 1), white 25%, white);
-    background: linear-gradient(rgba(209,247,223, 1), white 25%, white);
+    background: -webkit-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -moz-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -ms-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -o-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
 }
 
-.unimed h6{
+.unimed h6 {
     font-weight: 600;
 }
 
-.unimed h6, 
-.unimed p{
+.unimed h6,
+.unimed p {
     color: #009859;
 }
 
-.unimed .divider{
+.unimed .divider {
     background: #009859;
 }
 
@@ -111,22 +111,29 @@ h4 {
     line-height: normal;
 }
 
-#privacidade{
+#privacidade {
     color: #F61111;
 }
 
-#disclaimer{
+#disclaimer {
     font-size: 1.4rem;
 }
 
-#disclaimer:before{
+#disclaimer:before {
     content: '';
     margin-right: 5px;
     border-left: 2px solid red;
 }
-#disclaimer:after{
+
+#disclaimer:after {
     content: '';
     margin-left: 5px;
     border-right: 2px solid red;
 }
 
+#adjust{
+    display: inline-block;
+    background-color: rgba(255,255,255,.8);
+    margin-top: .3rem;
+    margin-right: .2rem;
+}
