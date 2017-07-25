@@ -106,3 +106,44 @@ h4 {
     font-size: 1.2rem;
     line-height: normal;
 }
+
+#privacidade{
+    color: #F61111;
+}
+
+#disclaimer{
+    font-size: 1.4rem;
+}
+
+#disclaimer:before{
+    content: '';
+    margin-right: 5px;
+    border-left: 2px solid red;
+}
+#disclaimer:after{
+    content: '';
+    margin-left: 5px;
+    border-right: 2px solid red;
+}
+
+/*
+#info{
+    color: red;
+}
+
+#info p{
+    color: darkred;
+    display: inline;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+*/
+
+/*
+.material-icons{
+    display: inline-flex;
+    vertical-align: middle;
+}
+*/
+

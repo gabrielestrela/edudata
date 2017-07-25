@@ -15,6 +15,9 @@
     #testeProgresso blockquote p{
         font-size: 1rem;
     }
+    .concursos{
+        width: 100%;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 992px){
