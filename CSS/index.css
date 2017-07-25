@@ -40,11 +40,15 @@ h4 {
 .unimed {
     border: 1px solid #ececec;
     padding: 5px;
-    background: -webkit-linear-gradient(rgba(209,247,223, 1), white 80%);
-    background: -moz-linear-gradient(rgba(209,247,223, 1), white 80%);
-    background: -ms-linear-gradient(rgba(209,247,223, 1), white 80%);
-    background: -o-linear-gradient(rgba(209,247,223, 1), white 80%);
-    background: linear-gradient(rgba(209,247,223, 1), white 80%);
+    background: -webkit-linear-gradient(rgba(209,247,223, 1), white 25%, white);
+    background: -moz-linear-gradient(rgba(209,247,223, 1), white 25%, white);
+    background: -ms-linear-gradient(rgba(209,247,223, 1), white 25%, white);
+    background: -o-linear-gradient(rgba(209,247,223, 1), white 25%, white);
+    background: linear-gradient(rgba(209,247,223, 1), white 25%, white);
+}
+
+.unimed h6{
+    font-weight: 600;
 }
 
 .unimed h6, 
@@ -125,25 +129,4 @@ h4 {
     margin-left: 5px;
     border-right: 2px solid red;
 }
-
-/*
-#info{
-    color: red;
-}
-
-#info p{
-    color: darkred;
-    display: inline;
-    font-size: 1.4rem;
-    font-weight: 500;
-    
-}
-*/
-
-/*
-.material-icons{
-    display: inline-flex;
-    vertical-align: middle;
-}
-*/
 
