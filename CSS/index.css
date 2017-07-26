@@ -115,6 +115,11 @@ h4 {
     font-size: 15px;
     line-height: 42px;
     padding: 0 22px;
+    -webkit-transform: all .3s ease-in-out;
+    -moz-transform: all .3s ease-in-out;
+    -ms-transform: all .3s ease-in-out;
+    -o-transform: all .3s ease-in-out;
+    transform: all .3s ease-in-out;
 }
 
 .modal h4 {
