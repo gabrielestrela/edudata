@@ -39,11 +39,11 @@
 <body>
 
     <main>
-        <div class="grey lighten-3 z-depth-2">
-            <div id="header" class="container">
+        <div id="header" class="grey lighten-3 z-depth-2">
+            <div class="container">
                 <div class="row valign-wrapper">
                     <div class="col center s12 m12 l6">
-                        <img src="IMAGES/logos/logo_texto_vermelho_transparente.png" alt="edudata" class="responsive-img">
+                        <img src="IMAGES/logos/logo_texto_vermelho_transparente255.png" alt="edudata" class="responsive-img">
                     </div>
                     <div class="col l6 hide-on-med-and-down">
                         <div class="center">
@@ -51,10 +51,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s12 center hide-on-small-only">
-                        <h5 class="light">AVALIAÇÃO EDUCACIONAL | PROCESSOS DE SELEÇÃO | ESTATÍSTICAS EDUCACIONAIS</h5>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center hide-on-small-only">
+                    <h5 class="light">AVALIAÇÃO EDUCACIONAL | PROCESSOS DE SELEÇÃO | ESTATÍSTICAS EDUCACIONAIS</h5>
                 </div>
             </div>
         </div>
@@ -67,6 +67,7 @@
 
         <div id="mainContent">
             <div class="row">
+                <!--
                 <div class="col m12 l4">
                     <a href="#clients">
                         <div class="card small">
@@ -80,45 +81,57 @@
                         </div>
                     </a>
                 </div>
-                <div class="col m12 l4 concursos">
+-->
+                <div id="concursos" class="col m12 l8 concursos">
                     <div class="row">
-                        <div class="col s12 center">
-                            <h4>Concursos em Andamento</h4>
-                        </div>
-                        <br>
-                        <a href="https://www.edudata.com.br/unimed17/">
-                            <div class="col l4 m6 s12">
-                                <div class="unimed center">
-                                    <h6>UNIMED Campinas</h6>
-                                    <div class="divider"></div>
-                                    <p>Médicos Cooperados</p>
-                                    <p>Processo Seletivo 2017</p>
+                        <div class="card large grey lighten-5">
+                            <div class="card-content">
+                                <div class="center promo promo-content">
+                                    <i class="material-icons">create</i>
+                                    <p class="promo-caption">Concursos em Andamento</p>
+                                    <!--                            <div class="container"><div id="firstDivider" class="divider red lighten-2"></div></div>-->
+                                    <br>
+                                    <a href="https://www.edudata.com.br/unimed17/">
+                                        <div class="col l3 m4 s12">
+                                            <div class="unimed center">
+                                                <h6>UNIMED Campinas</h6>
+                                                <div class="divider"></div>
+                                                <p>Médicos Cooperados</p>
+                                                <p>Processo Seletivo 2017</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#!">
+                                        <div class="col l3 m4 s12"></div>
+                                    </a>
+                                    <a href="#!">
+                                        <div class="col l3 m4 s12">
+
+                                        </div>
+                                    </a>
+                                    <a href="#!">
+                                        <div class="col l3 m4 s12">
+
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card small hide">
-                        <div class="card-content black-text">
-                            <div class="center promo promo-content">
-                                <i class="material-icons">create</i>
-                                <p class="promo-caption">Concursos em Andamento</p>
-                                <p class="light center promo-caption-desc">Clique para visualizar!</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col m12 l4">
-                    <a href="#testeProgresso">
-                        <div class="card small">
-                            <div class="card-content black-text">
-                                <div class="center promo promo-content">
-                                    <i class="material-icons">insert_chart</i>
-                                    <p class="promo-caption">Avaliação Educacional</p>
-                                    <p class="light center promo-caption-desc">Clique para ver os Testes de Progresso!</p>
-                                </div>
+                <div id="tProgresso" class="col m12 l4">
+                    <div class="card large grey lighten-5">
+                        <div class="card-content">
+                            <div class="center promo promo-content">
+                                <i class="material-icons">insert_chart</i>
+                                <p class="promo-caption">Avaliação Educacional</p>
+                                <!--                        <div class="container"><div id="secondDivider" class="divider red lighten-2"></div></div>-->
+                                <p class="light center promo-caption-desc">O <span class="red-text">Teste do Progresso </span>é uma avaliação educacional feita em conjunto por diferentes instituições de ensino superior, que não visa competição entre as faculdades.</p>
+                                <a href="http://www.edudata.net.br/tp/tp16.php" class="btn-large red lighten-2">2016</a>
+                                <a href="http://www.edudata.net.br/tp/tp17.php" class="btn-large red lighten-2">2017</a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,21 +139,36 @@
         <br>
 
         <div class="row">
+            <!--
             <div class="col s12 center">
                 <a href="#privacy" id="privacidade">
                     <i class="fa fa-info-circle fa-3x" aria-hidden="true"> Termos de Privacidade</i>
                 </a>
             </div>
+-->
+            <a href="#privacy" id="privacidade">
+                <div class="chip grey lighten-3">
+                    <i class="fa fa-info-circle" aria-hidden="true"> Termos de Privacidade</i>
+                </div>
+            </a>
+            <a id="clientes" href="#clients">
+                <div class="chip grey lighten-3">
+                    <i class="fa fa-users" aria-hidden="true"> Clientes</i>
+                </div>
+            </a>
         </div>
     </main>
 
     <footer class="page-footer red darken-1">
         <div class="container">
             <div class="row valign-wrapper">
-                <div class="col l6 s12 center">
-                    <img src="IMAGES/logos/logo-transparente_branco_128.png" alt="edudata" class="responsive-img">
+                <!--
+                <div class="col l4 s12 center">
+                    <img src="IMAGES/logos/logo-transparente_branco_96.png" alt="edudata" class="responsive-img">
                 </div>
-                <div class="col l6 s12">
+-->
+                <!--
+                <div class="col l4 s12">
                     <ul>
                         <li class="grey-text text-lighten-3"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;(11) 3083-7966</li>
                         <br>
@@ -149,14 +177,33 @@
                         <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/Edudata-Inform%C3%A1tica-181477295235307/"><i class="fa fa-facebook-official" aria-hidden="true"></i> &nbsp;&nbsp;Edudata Informática</a></li>
                         <br>
                         <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-leaf" aria-hidden="true"></i>&nbsp;&nbsp;Edudata Sustentável</a></li>
-                        <li><div id="adjust"><img src="IMAGES/siteSeguro/selo_site_122.png" alt="certsign"></div><img src="IMAGES/siteSeguro/norton105.png" alt="nortonSecure"></li>
+                    </ul>
+                </div>
+-->
+                <div class="col l6 s12 center">
+                    <ul>
+                        <li><a target="_blank" class="grey-text text-lighten-3" href="https://goo.gl/maps/bb7Zmq2EQjP2"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Rua Prof. Rubião Meira, 53 - Jardim América - São Paulo - SP</a></li>
+                        <br>
+                        <li class="grey-text text-lighten-3"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;(11) 3083-7966</li>
+                    </ul>
+                </div>
+                <div class="col l6 s12 center">
+                    <ul>
+                        <li>
+                            <div id="adjust">
+                                <img class="responsive-img" src="IMAGES/siteSeguro/selo_site_122.png" alt="certsign">
+                                <img class="responsive-img" src="IMAGES/siteSeguro/norton105.png" alt="nortonSecure">
+                            </div>
+                        </li>
+                        <li>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container center">
-                © 2014 Copyright Gabriel Estrela - estrelagabriel92@gmail.com
+                © 2017 Copyright - Edudata
             </div>
         </div>
     </footer>

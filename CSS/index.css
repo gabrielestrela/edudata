@@ -26,19 +26,18 @@ main {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-    margin-top: 1.5em!important;
-    margin-bottom: 2em!important;
+    margin-top: 3em!important;
+    margin-bottom: 3em!important;
 }
 
 h4 {
-    background-color: #d73935;
-    color: white!important;
+/*    color: white!important;*/
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .unimed {
-    border: 1px solid #ececec;
+    border: 1px solid #C7D5B7;
     padding: 5px;
     background: -webkit-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
     background: -moz-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
@@ -52,12 +51,17 @@ h4 {
 }
 
 .unimed h6,
-.unimed p {
-    color: #009859;
+.unimed p{
+    color: #009859!important;
+}
+
+.unimed p{
+    margin-bottom: 5px!important;
 }
 
 .unimed .divider {
     background: #009859;
+    margin-bottom: 5px;
 }
 
 .promo {
@@ -75,9 +79,13 @@ h4 {
 
 .promo i {
     margin: 5px 0;
-    font-size: 7rem;
+    font-size: 6rem;
     display: block;
     color: red;
+}
+
+.promo a{
+    margin-bottom: 5px;
 }
 
 .promo-caption {
@@ -89,6 +97,10 @@ h4 {
 
 .promo-caption-desc {
     font-size: 1.5rem;
+}
+
+#tProgresso a {
+    margin-top: 25px;
 }
 
 .modal h4 {
@@ -136,4 +148,16 @@ h4 {
     background-color: rgba(255,255,255,.8);
     margin-top: .3rem;
     margin-right: .2rem;
+}
+
+.page-footer{
+    padding: 0;
+}
+
+.page-footer .row{
+    margin-bottom: 0px;
+}
+
+.page-footer .footer-copyright{
+    min-height: 25px;
 }
