@@ -93,6 +93,9 @@ h4 {
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 20px!important;
+    color: white!important;
+    background-color: #ff4141;
+    border-radius: 10px;
 }
 
 .promo-caption-desc {
