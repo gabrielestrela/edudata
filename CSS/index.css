@@ -103,6 +103,13 @@ h4 {
     margin-top: 25px;
 }
 
+.chip{
+    height: 42px;
+    font-size: 15px;
+    line-height: 42px;
+    padding: 0 22px;
+}
+
 .modal h4 {
     background-color: #d73935;
     color: white!important;
