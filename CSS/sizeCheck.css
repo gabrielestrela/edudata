@@ -1,0 +1,29 @@
+#windowSize{
+    display: none;
+    visibility: hidden;
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    #windowSize{
+        padding: 4px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px){
+    #windowSize{
+        padding: 6px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #windowSize{
+        padding: 8px;
+    }
+}
+
+@media (min-width: 1200px){
+    #windowSize{
+        padding: 10px;
+    }
+}

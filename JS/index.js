@@ -9,4 +9,5 @@ $(document).ready(function () {
     $('#clientes').hover(function(){
        $('#clientes .chip').toggleClass('red-text lighten-2'); 
     });
+    
 });

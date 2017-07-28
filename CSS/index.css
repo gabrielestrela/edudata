@@ -41,6 +41,20 @@ h4 {
     padding-right: 0;
 }
 
+#concursos .card{
+    min-height: 500px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#concursos .card:hover{
+    border: 1px solid rgba(255, 0, 0, .2);
+}
+
 .unimed {
     border: 1px solid #C7D5B7;
     padding: 5px;
@@ -49,6 +63,16 @@ h4 {
     background: -ms-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
     background: -o-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
     background: linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.unimed:hover{
+    border: 1px solid #A1B58A;
 }
 
 .unimed h6 {
@@ -111,6 +135,20 @@ h4 {
 #firstDivider,
 #secondDivider{
     height: 4px;
+}
+
+#tProgresso .card{
+    min-height: 500px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#tProgresso .card:hover{
+    border: 1px solid rgba(255, 0, 0, .2);
 }
 
 #tProgresso a {
