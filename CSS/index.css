@@ -7,6 +7,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: "Trebuchet MS"!important;
 }
 
 main {
@@ -97,14 +98,19 @@ h4 {
     font-weight: 100;
     margin-top: 5px;
     margin-bottom: 20px!important;
-    color: white!important;
-    background-color: #ff4141;
+    color: #ff4141!important;
+/*    background-color: #ff4141;*/
     border-radius: 10px;
 }
 
 .promo-caption-desc {
     font-size: 1.2rem;
     text-align: justify!important;
+}
+
+#firstDivider,
+#secondDivider{
+    height: 4px;
 }
 
 #tProgresso a {
