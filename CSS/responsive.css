@@ -3,40 +3,53 @@
     body {
         overflow-x: hidden;
     }
-    #intro p span{
+    #intro p span {
         font-size: 1rem;
     }
-    #intro p{
+    #intro p {
         font-size: .8rem;
     }
     #mainContent .card {
         width: 95vw!important;
     }
-    #testeProgresso blockquote p{
+    #testeProgresso blockquote p {
         font-size: 1rem;
     }
-    .concursos{
+    .concursos {
         width: 100%;
     }
-    #disclaimer{
+    #disclaimer {
         font-size: 1.2rem;
     }
-    #privacy h4{
+    #privacy h4 {
         font-size: 1.6rem;
+    }
+    .chip {
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0 12px;
     }
 }
 
-@media (min-width: 600px) and (max-width: 992px){
-    #header h5{
+@media (min-width: 600px) and (max-width: 992px) {
+    #header h5 {
         font-size: .85rem;
     }
-    #intro p span{
+    #intro p span {
         font-size: 1.5rem;
     }
-    #intro p{
+    #intro p {
         font-size: 1rem;
     }
-    #testeProgresso blockquote p{
+    #testeProgresso blockquote p {
         font-size: 1.1rem;
+    }
+    
+    .chip {
+        height: 36px;
+        font-size: 15px;
+        line-height: 36px;
+        padding: 0 16px;
     }
 }
