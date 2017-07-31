@@ -24,7 +24,7 @@ main {
 
 #header{
 /*    background: url(../IMAGES/wallpapers/3dRedCubes.svg) center center;*/
-    margin-top: 10px;
+    margin: 10px .9em 0;
 }
 
 #header img{
@@ -46,6 +46,8 @@ main {
     padding: 10px 20px 10px 10px;
     margin: 0 auto 10px;
 /*    background-image: url(../IMAGES/wallpapers/3dRedCubes.svg);*/
+    margin-left: .9em;
+    margin-right: .9em;
 }
 
 #intro p span {
