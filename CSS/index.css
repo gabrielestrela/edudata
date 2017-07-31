@@ -34,7 +34,8 @@ main {
 }
 
 #intro {
-    padding: 0 20px 0 10px;
+    padding: 10px 20px 10px 10px;
+    margin: 0 auto 10px;
 }
 
 #intro p span {
@@ -46,8 +47,6 @@ main {
     font-size: 1.2rem;
     text-align: justify;
     font-weight: 300;
-    margin-top: 3em!important;
-    margin-bottom: 3em!important;
     color: #333;
 }
 
