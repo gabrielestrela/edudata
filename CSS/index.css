@@ -8,26 +8,26 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: "Trebuchet MS"!important;
-    
-    background: url(../IMAGES/wallpapers/redStripe.jpg) center center;
+    background: url(../IMAGES/wallpapers/redStripes.jpg) top left;
     background-size: cover;
-
     background-color: #f4f3f3;
+    /*
     -webkit-box-shadow: inset 0px 0px 128px 16px rgba(179, 179, 179, 1);
     -moz-box-shadow: inset 0px 0px 128px 16px rgba(179, 179, 179, 1);
     box-shadow: inset 0px 0px 128px 16px rgba(179, 179, 179, 1);
+*/
 }
 
 main {
     flex: 1 0 auto;
 }
 
-#header{
-/*    background: url(../IMAGES/wallpapers/3dRedCubes.svg) center center;*/
-    margin: 10px .9em 0;
+#header {
+    /*    background: url(../IMAGES/wallpapers/3dRedCubes.svg) center center;*/
+    margin: 10px .8em 0;
 }
 
-#header img{
+#header img {
     margin-top: 5px;
 }
 
@@ -45,9 +45,9 @@ main {
 #intro {
     padding: 10px 20px 10px 10px;
     margin: 0 auto 10px;
-/*    background-image: url(../IMAGES/wallpapers/3dRedCubes.svg);*/
-    margin-left: .9em;
-    margin-right: .9em;
+    background-image: url(../IMAGES/wallpapers/intro.jpg);
+    margin-left: .8em;
+    margin-right: .8em;
 }
 
 #intro p span {
@@ -184,6 +184,10 @@ h4 {
 
 #tProgresso a {
     margin-top: 25px;
+}
+
+#extras{
+    margin-right: 30px;
 }
 
 .chip {
