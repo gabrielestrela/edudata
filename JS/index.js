@@ -12,10 +12,10 @@ $(document).ready(function () {
 
     if ($('#windowSize').css('padding') == '4px') {
         //        console.log('entrou');
-        $('#intro').css('background-image', "url(../IMAGES/wallpapers/introTeste.jpg)");
+        $('#intro').css('background-image', "url(edudata/IMAGES/wallpapers/introTeste.jpg)");
     }
     if ($('#windowSize').css('padding') == '6px') {
-        $('#intro').css('background-image', "url(../IMAGES/wallpapers/introTeste.jpg)");
+        $('#intro').css('background-image', "url(edudata/IMAGES/wallpapers/introTeste.jpg)");
     }
     if ($('#windowSize').css('padding') == '8px' || $('#windowSize').css('padding') == '10px') {
         $('#intro').css('background-image', "url(../IMAGES/wallpapers/intro.jpg)");
@@ -24,13 +24,13 @@ $(document).ready(function () {
     $(window).resize(function () {
         if ($('#windowSize').css('padding') == '4px') {
             //            console.log('entrou');
-            $('#intro').css('background-image', "url(../IMAGES/wallpapers/introTeste.jpg)");
+            $('#intro').css('background-image', "url(edudata/IMAGES/wallpapers/introTeste.jpg)");
         }
         if ($('#windowSize').css('padding') == '6px') {
-            $('#intro').css('background-image', "url(../IMAGES/wallpapers/introTeste.jpg)");
+            $('#intro').css('background-image', "url(edudata/IMAGES/wallpapers/introTeste.jpg)");
         }
         if($('#windowSize').css('padding') == '8px' || $('#windowSize').css('padding') == '10px'){
-            $('#intro').css('background-image', "url(../IMAGES/wallpapers/intro.jpg)");
+            $('#intro').css('background-image', "url(edudata/IMAGES/wallpapers/intro.jpg)");
         }
     });
 
