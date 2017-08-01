@@ -17,6 +17,9 @@ $(document).ready(function () {
     if ($('#windowSize').css('padding') == '6px') {
         $('#intro').css('background-image', "url(../IMAGES/wallpapers/introTeste.jpg)");
     }
+    if ($('#windowSize').css('padding') == '8px' || $('#windowSize').css('padding') == '10px') {
+        $('#intro').css('background-image', "url(../IMAGES/wallpapers/intro.jpg)");
+    }
 
     $(window).resize(function () {
         if ($('#windowSize').css('padding') == '4px') {
