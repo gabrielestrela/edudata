@@ -33,6 +33,9 @@
     #intro{
         background-image: url(../IMAGES/wallpapers/introTeste.jpg);
     }
+    #extras{
+        margin-right: 0;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
@@ -57,5 +60,8 @@
     }
     #intro{
         background-image: url(../IMAGES/wallpapers/introTeste.jpg);
+    }
+    #extras{
+        margin-right: 0;
     }
 }
