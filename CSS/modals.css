@@ -1,0 +1,43 @@
+/* Arquivo de estilo para modais relacionados aos botoes 'Termos de Privacidade' ; 'Nossos Clientes' */
+
+#extras{
+    margin-right: 30px;
+}
+
+.chip {
+    height: 42px;
+    font-size: 20px;
+    line-height: 42px;
+    padding: 0 22px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.modal h4 {
+    background-color: #d73935;
+    color: white!important;
+    padding: 5px;
+}
+
+.modal ul li {
+    margin-bottom: .3em;
+}
+
+#disclaimer {
+    font-size: 1.4rem;
+}
+
+#disclaimer:before {
+    content: '';
+    margin-right: 5px;
+    border-left: 2px solid red;
+}
+
+#disclaimer:after {
+    content: '';
+    margin-left: 5px;
+    border-right: 2px solid red;
+}  

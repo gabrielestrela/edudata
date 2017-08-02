@@ -1,0 +1,21 @@
+/* Arquivo de estilo para o texto de introducao */
+
+#intro {
+    padding: 10px 20px 10px 10px;
+    margin: 0 auto 10px;
+    background-image: url(../IMAGES/wallpapers/intro.jpg);
+    margin-left: .8em;
+    margin-right: .8em;
+}
+
+#intro p span {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 300;
+    color: #333;
+}

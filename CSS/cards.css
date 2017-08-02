@@ -1,0 +1,133 @@
+/* Arquivo de estilo para os dois cartoes do site ('concursos em andamento' ; 'Avaliacao Educacional') */
+
+#concursos {
+    padding-right: 0;
+}
+
+#concursos .card {
+    min-height: 500px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#concursos .card:hover {
+    border: 1px solid rgba(255, 0, 0, .2);
+}
+
+/* Estilo da classe para blocos relacionados a unimed*/
+/* No caso de uma nova instituicao,  copiar a classe */
+/* mudar o nome e os respectivos valores de cor para a borda*/
+/* e background*/
+.unimed {
+    border: 1px solid #C7D5B7;
+    padding: 5px;
+    background: -webkit-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -moz-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -ms-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: -o-linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    background: linear-gradient(rgba(209, 247, 223, 1), white 25%, white);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.unimed:hover {
+    border: 1px solid #A1B58A;
+}
+
+.unimed h6 {
+    font-weight: 600;
+}
+
+.unimed h6,
+.unimed p {
+    color: #009859!important;
+}
+
+.unimed p {
+    margin-bottom: 5px!important;
+}
+
+.unimed .divider {
+    background: #009859;
+    margin-bottom: 5px;
+}
+
+.promo {
+    width: 100%;
+}
+
+.promo-content {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.promo i {
+    margin: 5px 0;
+    font-size: 4.5rem;
+    display: block;
+    color: #ff5d5d;
+}
+
+.promo a {
+    margin-bottom: 5px;
+}
+
+.promo-caption {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 20px!important;
+    color: #ff5d5d!important;
+    /*    background-color: #ff4141;*/
+    border-radius: 10px;
+}
+
+.promo-caption-desc {
+    font-size: 1.2rem;
+    text-align: justify!important;
+}
+
+#firstDivider,
+#secondDivider {
+    height: 4px;
+}
+
+.divider {
+    margin-bottom: 2em;
+}
+
+#tProgresso .card {
+    min-height: 500px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#tProgresso .card:hover {
+    border: 1px solid rgba(255, 0, 0, .2);
+}
+
+#tProgresso a {
+    margin-top: 25px;
+}
+
+#testeProgresso p {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: normal;
+}

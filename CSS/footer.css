@@ -1,0 +1,20 @@
+/* Arquivo de estilo para o rodape da pagina */
+
+.page-footer {
+    padding: 0;
+}
+
+.page-footer .row {
+    margin-bottom: 0px;
+}
+
+.page-footer .footer-copyright {
+    min-height: 25px;
+}
+
+#adjust {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .8);
+    margin-top: .3rem;
+    margin-right: .2rem;
+}

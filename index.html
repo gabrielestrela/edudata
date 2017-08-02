@@ -19,28 +19,28 @@
     <!-- Normalize -->
     <link rel="stylesheet" href="CSS/normalize/normalize.css">
 
-    <!-- Hierarchical -->
-    <link rel="stylesheet" href="CSS/hierarchical/zmd.hierarchical-display.min.css">
-
     <!-- FontAwesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/fontawesome/font-awesome.min.css">
 
-    <!-- Unslider -->
-    <link rel="stylesheet" href="CSS/unslider/unslider.css">
-    <link rel="stylesheet" href="CSS/unslider/unslider-dots.css">
-
     <!-- Proprietary -->
     <link rel="icon" href="IMAGES/logos/logo-transparente_vermelho_32.png">
     <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/intro.css">
+    <link rel="stylesheet" href="CSS/cards.css">
+    <link rel="stylesheet" href="CSS/modals.css">
+    <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/sizeCheck.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
 
 </head>
 
 <body>
 
     <main>
+
+        <!-- Header da Pagina-->
         <div id="header" class="grey lighten-5 z-depth-2">
 
             <div class="container row valign-wrapper">
@@ -60,7 +60,9 @@
                 </div>
             </div>
         </div>
+        <!-- Header da Pagina-->
 
+        <!-- Texto de Quem Somos -->
         <div id="intro" class="center card">
             <div class="container">
                 <blockquote>
@@ -68,24 +70,17 @@
                 </blockquote>
             </div>
         </div>
+        <!-- Texto de Quem Somos -->
 
+        <!-- Cards principais da pagina -->
+        <!-- Na necessidade de mudar o tamanho do card, mudar a classe 'l6'-->
+        <!-- Note que a soma dos dois cards resultam em 12 'l6' em concursos e 'l6' em tProgresso -->
+        <!-- Um exemplo em que concursos se torna maior que tProgresso, concursos fica com classe l8-->
+        <!-- e tProgresso l4, gerando a proporcao 2/3 1/3-->
         <div id="mainContent">
             <div class="row">
-                <!--
-                <div class="col m12 l4">
-                    <a href="#clients">
-                        <div class="card small">
-                            <div class="card-content black-text">
-                                <div class="center promo promo-content">
-                                    <i class="material-icons">group</i>
-                                    <p class="promo-caption">Clientes</p>
-                                    <p class="light center promo-caption-desc">Clique para conferir nossos clientes!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
--->
+                
+                <!-- Card 'CONCURSOS EM ANDAMENTO' -->
                 <div id="concursos" class="col m12 l6">
                     <div class="row">
                         <div class="card white">
@@ -99,7 +94,8 @@
                                     <div id="firstDivider" class="divider red lighten-3"></div>
 
                                     <br>
-
+                                    
+                                    <!-- Quando necessario, copiar este segmento para adicionar outra caixa de concurso, ATENTO a CLASSE UNIMED, que no caso de outra instituicao ver o css correspondente a classe unimed no arquivo cards.css e gerar as cores respectivas a instituicao a ser inserida -->
                                     <a target="_blank" href="https://www.edudata.com.br/unimed17/">
                                         <div class="col l3 m4 s12">
                                             <div class="count unimed center">
@@ -115,6 +111,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- Card 'CONCURSOS EM ANDAMENTO' -->
+                
+                <!-- Card 'AVALICAO EDUCACIONAL' -->
                 <div id="tProgresso" class="col m12 l6">
                     <div class="card white">
                         <div class="card-content">
@@ -125,25 +124,23 @@
                                 <div id="secondDivider" class="divider red lighten-3"></div>
 
                                 <p class="light center promo-caption-desc">O <span class="red-text">Teste do Progresso </span>é uma avaliação educacional feita em conjunto por diferentes instituições de ensino superior, que não visa competição entre as faculdades.</p>
+                                
+                                <!-- Links -->
                                 <a target="_blank" href="http://www.edudata.net.br/tp/tp16.php" class="btn-large red lighten-1">2016</a>
                                 <a target="_blank" href="http://www.edudata.net.br/tp/tp17.php" class="btn-large red lighten-1">2017</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Card 'AVALICAO EDUCACIONAL' -->
             </div>
         </div>
 
         <br>
-
+    
+        <!-- Botoes para ativar os modais -->
         <div id="extras" class="row center-align">
-            <!--
-            <div class="col s12 center">
-                <a href="#privacy" id="privacidade">
-                    <i class="fa fa-info-circle fa-3x" aria-hidden="true"> Termos de Privacidade</i>
-                </a>
-            </div>
--->
+
             <a href="#privacy" id="privacidade">
                 <div class="chip white">
                     <i class="fa fa-info-circle" aria-hidden="true"> Termos de Privacidade</i>
@@ -154,30 +151,15 @@
                     <i class="fa fa-users" aria-hidden="true"> Nossos Clientes</i>
                 </div>
             </a>
+            
         </div>
+        <!-- Botoes para ativar os modais -->
     </main>
 
+    <!-- Rodape -->
     <footer class="page-footer red darken-1">
         <div class="container">
             <div class="row valign-wrapper">
-                <!--
-                <div class="col l4 s12 center">
-                    <img src="IMAGES/logos/logo-transparente_branco_96.png" alt="edudata" class="responsive-img">
-                </div>
--->
-                <!--
-                <div class="col l4 s12">
-                    <ul>
-                        <li class="grey-text text-lighten-3"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp;&nbsp;(11) 3083-7966</li>
-                        <br>
-                        <li><a target="_blank" class="grey-text text-lighten-3" href="https://goo.gl/maps/bb7Zmq2EQjP2"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Rua Prof. Rubião Meira, 53 - Jardim América - São Paulo - SP</a></li>
-                        <br>
-                        <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.facebook.com/Edudata-Inform%C3%A1tica-181477295235307/"><i class="fa fa-facebook-official" aria-hidden="true"></i> &nbsp;&nbsp;Edudata Informática</a></li>
-                        <br>
-                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa fa-leaf" aria-hidden="true"></i>&nbsp;&nbsp;Edudata Sustentável</a></li>
-                    </ul>
-                </div>
--->
                 <div class="col l6 s12 center">
                     <ul>
                         <li><a target="_blank" class="grey-text text-lighten-3" href="https://goo.gl/maps/bb7Zmq2EQjP2"><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;Rua Prof. Rubião Meira, 53 - Jardim América - São Paulo - SP</a></li>
@@ -211,7 +193,7 @@
     <!-- Modals -->
     <div id="clients" class="modal">
         <div class="modal-content">
-           <img src="IMAGES/logos/logo-transparente_vermelho_32.png" alt="edudata logo" class="responsive-img center">
+            <img src="IMAGES/logos/logo-transparente_vermelho_32.png" alt="edudata logo" class="responsive-img center">
             <div class="container">
                 <h4 class="center">Graduação em Medicina</h4>
                 <ul>
@@ -329,56 +311,9 @@
 
     </div>
 
-    <!--
-    <div id="concursos" class="modal">
-        <div class="modal-content">
-
-        </div>
-    </div>
--->
-
-    <div id="testeProgresso" class="modal">
-        <div class="modal-content">
-
-            <div class="container">
-                <h4 class="center">Teste do Progresso</h4>
-            </div>
-
-            <blockquote>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;O Teste do Progresso é uma avaliação educacional feita em conjunto por diferentes instituições de ensino superior, que não visa competição entre as faculdades. O Teste do Progresso avalia o ganho de conhecimento dos alunos ao longo do tempo. É uma prova de participação voluntária. O aluno tem acesso individual às suas notas e ao seu desempenho na prova. Ao acessar o portal com sua senha pessoal, verifica sua média, juntamente com o desempenho da sua classe. É garantido o sigilo das informações às faculdades e aos alunos e não há intercâmbio de dados individuais entre as instituições parceiras pois não se procura o rankeamento.</p>
-            </blockquote>
-
-            <div class="divider grey lighten-2"></div>
-
-            <div class="row">
-                <div class="col l4 m6 s12">
-                    <a href="http://www.edudata.net.br/tp/tp17.php">
-                        <div class="card">
-                            <div class="card-content center white-text red lighten-1">
-                                <h5>2017</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col l4 m6 s12">
-                    <a href="http://www.edudata.net.br/tp/tp16.php">
-                        <div class="card">
-                            <div class="card-content center white-text red lighten-1">
-                                <h5>2016</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col l4 m6 s12">
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="privacy" class="modal">
         <div class="modal-content">
-           <img src="IMAGES/logos/logo-transparente_vermelho_32.png" alt="edudata logo" class="responsive-img center">
+            <img src="IMAGES/logos/logo-transparente_vermelho_32.png" alt="edudata logo" class="responsive-img center">
             <div class="container">
                 <h4 class="center">Uso das informações e confidencialidade</h4>
                 <p id="disclaimer" class="center">Ao aluno e/ou candidato</p>
@@ -419,15 +354,6 @@
 
     <!-- Materialize -->
     <script type="text/javascript" src="JS/materialize/materialize.min.js"></script>
-
-    <!-- Bowser -->
-    <script type="text/javascript" src="JS/bowser/bowser.min.js"></script>
-
-    <!-- Hierarchical -->
-    <script type="text/javascript" src="JS/hierarchical/jquery.zmd.hierarchical-display.min.js"></script>
-
-    <!-- Unslider -->
-    <script type="text/javascript" src="JS/unslider/unslider-min.js"></script>
 
     <!-- Proprietary -->
     <script type="text/javascript" src="JS/index.js"></script>

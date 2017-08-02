@@ -1,0 +1,20 @@
+/* Arquivo de estilo para o header da pagina */
+
+#header {
+    margin: 10px .8em 0;
+}
+
+#header img {
+    margin-top: 5px;
+}
+
+#header h1 {
+    font-size: 2rem;
+    font-weight: 100!important;
+}
+
+#header h5 {
+    font-size: 1.2rem;
+    font-weight: 100!important;
+    color: black;
+}
