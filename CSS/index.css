@@ -12,6 +12,7 @@ body {
     font-family: "Trebuchet MS"!important;
     background: url(../IMAGES/wallpapers/redStripe4k.jpg) no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     background-color: #f4f3f3;
     /*
     -webkit-box-shadow: inset 0px 0px 128px 16px rgba(179, 179, 179, 1);
